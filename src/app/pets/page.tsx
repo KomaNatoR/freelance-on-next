@@ -1,12 +1,19 @@
-import React from 'react'
+"use client"
+
+import Header from "@/ui/pets/header/Header";
+// import Hero from "./components/Hero";
+
 
 const Pets = () => {
+
+
     return (
         <>
-            <header></header>
+            {/* <header></header> */}
+            <Header/>
             
             <main>
-                {"PETS!"}
+                <h1>PETS_PAGE!</h1>
             </main>
 
             <footer></footer>

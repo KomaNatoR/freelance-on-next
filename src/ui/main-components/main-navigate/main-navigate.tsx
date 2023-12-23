@@ -7,7 +7,7 @@ const MainNavigate = () => {
     return (
         <div  className={variables.cont}>
             <h1 className={variables.h1}>
-                {"Hello it's my HTML/SCSS/NEXT practic!"}
+                {"Hello it's my HTML/SCSS/TS/NEXT practic!"}
             </h1>
 
             <nav className={variables.nav}>
