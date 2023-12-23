@@ -1,3 +1,12 @@
+:root {
+  --primary-dark: #222220;
+
+  --light-golden: #C1AB81;
+  --dark-golden: #9D875C;
+
+  --first-background: #EFE9DD;
+}
+
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;
