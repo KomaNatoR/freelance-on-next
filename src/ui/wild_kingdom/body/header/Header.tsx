@@ -1,6 +1,7 @@
 "use client"
 
- const Header = () => {
+
+const Header = () => {
   return (
     <div>
       HEADER
