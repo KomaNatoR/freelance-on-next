@@ -1,17 +1,17 @@
 import Link from 'next/link';
 
-import variables from './main-nav.module.scss';
+import styles from './main-nav.module.scss';
 
 
 const MainNavigate = () => {
     return (
-        <div  className={variables.cont}>
-            <h1 className={variables.h1}>
+        <div className={styles.cont}>
+            <h1 className={styles.h1}>
                 {"Hello it's my HTML/SCSS/TS/NEXT practic!"}
             </h1>
 
-            <nav className={variables.nav}>
-                <Link href="/pets" className={variables.link}>pets</Link>
+            <nav className={styles.nav}>
+                <Link href="/wild_kingdom" className={styles.link}>The Wild Kingdom</Link>
             </nav>
         </div>
     )
