@@ -7,7 +7,7 @@ import { italiana } from '../../../fonts';
 const Hero = () => {
   return (
     <section className={`${italiana.className}`}>
-      <h1 className={styles.title}>A Better World For Pets</h1>
+      <h1 className={styles.title}>A better world for pets</h1>
     </section>
   )
 }

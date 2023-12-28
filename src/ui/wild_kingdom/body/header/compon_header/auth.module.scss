@@ -1,0 +1,10 @@
+.auth {
+    display: flex;
+    align-items: center;
+
+    color: var(--light-golden);
+
+    & div {
+        margin-right: 34px;
+    }
+}

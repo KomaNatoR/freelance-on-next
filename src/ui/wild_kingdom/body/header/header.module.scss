@@ -1,0 +1,17 @@
+.header {
+    min-width: 320px;
+    max-width: 1920px;
+
+    // text-align: center;
+    // font-size: 16px;
+
+    outline: 1px solid darkolivegreen;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1570px;
+    padding: 30px;
+}
