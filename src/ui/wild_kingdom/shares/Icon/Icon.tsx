@@ -1,25 +1,25 @@
+import React from 'react';
+
 import iconsBox from "./icons/icons.svg";
 import iconsId from "./icons/icons.json";
 
 
-type Props = {
-    id: string,
+type Props = React.SVGProps<SVGSVGElement> & {
+    id: string;
 };
 
 
-const Icon = (props: Props) => {
-    const { id } = props;
-    let checkId = iconsId.find(it => it === id);
-    // if (!checkId) checkId = `arrow`;
-    // console.log("ID     |-->",id);
-    // console.log("checkId|-->",checkId);
+const Icon: React.FC<Props> = (props) => {
+    const { id, ...rest } = props;
+    const checkId = iconsId.find(it => it === id);
+    const checkedId = checkId ? id : 'arrow';
 
     return (
-        <svg id={checkId ? id : 'arrow'}>
-            <use href={`${iconsBox}#icon-${checkId}`}></use>
+        <svg id={checkedId} {...rest}>
+            <use href={`${iconsBox}#icon-${checkedId}`}></use>
         </svg>
     )
 };
 
 
-// export default Icon;
+export default Icon;
