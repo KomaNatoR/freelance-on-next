@@ -11,7 +11,7 @@ import { montserrat } from '../../fonts';
 const WildBody = () => {
 
     return (
-        <div className={`${styles.body} ${montserrat.className}`}>
+        <div className={`${styles.body} ${montserrat.className} wild_body`}>
             <div className={styles.container}>
                 <Header/>
             
