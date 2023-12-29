@@ -1,6 +1,6 @@
 .btn {
-    width: 151px;
-    height: 50px;
+    width: 75px;
+    height: 25px;
 
     background: transparent;
     border-radius: 50px;
@@ -8,7 +8,7 @@
 
     color: var(--light-golden);
     text-align: center;
-    font-size: 16px;
+    font-size: 8px;
     font-style: normal;
     font-weight: 300;
     line-height: 156.25%;
@@ -22,4 +22,10 @@
         background: var(--light-golden);
         color: var(--dark-golden);
     }
+
+@media (min-width: 768px) {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+}
 }

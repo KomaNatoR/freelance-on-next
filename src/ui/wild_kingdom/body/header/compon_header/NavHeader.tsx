@@ -8,8 +8,7 @@ const NavHeader = () => {
         <nav className={styles.nav}>
             <ul>
                 <li>
-                    <Link href="#"></Link>
-                    Home
+                    <Link href="#">Home</Link>
                 </li>
                 <li>
                     <Link href="#">About</Link>

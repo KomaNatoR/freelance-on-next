@@ -7,11 +7,12 @@
         list-style: none;
 
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
         align-items: center;
+        gap: 44px;
         
-        width: 375px;
-        height: 25px;
+        max-width: 375px;
+        // height: 25px;
 
         color: var(--light-golden);
     }
