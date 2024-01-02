@@ -1,3 +1,22 @@
+.hero_box {
+    // position: relative;
+
+    & img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        object-fit: cover;
+        object-position: top;
+        z-index: -1;
+
+        width: 100%;
+        height: 100%;
+        // max-width: 1920px;
+        // min-height: 1118px;
+    }
+}
+
 .title {
     color: var(--light-golden);
 

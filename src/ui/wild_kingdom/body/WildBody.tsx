@@ -12,7 +12,7 @@ const WildBody = () => {
 
     return (
         <div className={`${styles.body} ${montserrat.className} wild_body`}>
-            <div className={styles.container}>
+            {/* <div className={styles.container}> */}
                 <Header/>
             
                 <main>
@@ -21,7 +21,7 @@ const WildBody = () => {
                 </main>
 
                 <Footer />
-            </div>
+            {/* </div> */}
         </div>
     )
 }
