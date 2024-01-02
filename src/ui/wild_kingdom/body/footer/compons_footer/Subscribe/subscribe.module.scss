@@ -37,6 +37,7 @@
         width: 100%;
 
         border: none;
+        color: var(--light-golden);
         background: var(--primary-dark);
         // outline: 1px solid darkolivegreen;
 
@@ -47,6 +48,9 @@
 
             color: var(--light-golden);
         }
+        &:hover, &:focus {
+            outline: 1px solid var(--light-golden);
+        }
     }
     & button {
         width: 98px;
@@ -56,9 +60,10 @@
         font-weight: 400;
         line-height: 187.5%;
     
-        border: none;
+        // border: none;
+        border-color: transparent;
         color: var(--light-golden);
-        background: var(--primary-dark);
+        background: transparent;
         cursor: pointer;
     }
 }
