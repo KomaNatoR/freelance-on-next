@@ -1,0 +1,37 @@
+
+.sitemap_box {
+    // padding-right: 40px;
+@media (min-width: 1024px) {
+    max-width: calc(100% / 3);
+}
+
+    & h2 {
+        margin-bottom: 16px;
+
+        text-align: start;
+    }
+    & div {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+
+// ------------------- SOCLIST -------------------
+.soc_list {
+    list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.item {
+
+    &:hover img,
+    &:focus img {
+        display: inline-block;
+        transform: scale(1.2);
+    }
+}

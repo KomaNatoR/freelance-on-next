@@ -8,5 +8,11 @@
 
     & div {
         cursor: pointer;
+
+        &:hover,
+        &:focus {
+            color: var(--dark-golden);
+            transform: scale(1.1);
+        }
     }
 }

@@ -8,12 +8,27 @@
 
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         align-items: center;
-        gap: 44px;
+        // display: grid;
+        // grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 32px;
         
         max-width: 375px;
         // height: 25px;
 
         color: var(--light-golden);
+
+    }
+}
+
+.list_item {
+
+    transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1),
+    transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover a, &:focus a {
+        display: inline-block;
+        color: var(--dark-golden);
+        transform: scale(1.1);
     }
 }
