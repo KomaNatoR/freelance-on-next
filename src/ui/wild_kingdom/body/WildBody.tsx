@@ -12,18 +12,16 @@ const WildBody = () => {
 
     return (
         <div className={`${styles.body} ${montserrat.className} wild_body`}>
-            {/* <div className={styles.container}> */}
-                <Header/>
+            <Header />
             
-                <main>
-                    <Hero />
-                    <h1>PETS_PAGE!</h1>
-                </main>
+            <main className={styles.main}>
+                <Hero />
+                <section>PETS_PAGE!</section>
+            </main>
 
-                <Footer />
-            {/* </div> */}
+            <Footer />
         </div>
     )
-}
+};
 
 export default WildBody;
