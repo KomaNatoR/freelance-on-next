@@ -23,6 +23,11 @@
     color: #FFC107;
 }
 
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .link {
     display: flex;
     justify-content: center;

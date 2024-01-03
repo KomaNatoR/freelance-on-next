@@ -12,9 +12,11 @@ const MainNavigate = () => {
 
             <nav className={styles.nav}>
                 <Link href="/wild_kingdom" className={styles.link}>The Wild Kingdom</Link>
+                <Link href="/awesome_woods" className={styles.link}>Awesome Woods</Link>
             </nav>
         </div>
     )
 };
 
 export default MainNavigate;
+// awesome_trees
