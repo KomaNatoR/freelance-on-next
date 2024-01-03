@@ -16,7 +16,14 @@ const WildBody = () => {
             
             <main className={styles.main}>
                 <Hero />
-                <section>PETS_PAGE!</section>
+                <section>
+                    <h2>PETS_PAGE!</h2>
+                    <p>_</p>
+                    <p>|</p>
+                    <p>|</p>
+                    <p>V</p>
+                    <p>NO ADAPTIVE!</p>
+                </section>
             </main>
 
             <Footer />

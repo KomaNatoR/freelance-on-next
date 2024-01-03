@@ -1,29 +1,19 @@
 import Image from "next/image";
-// import MediaQuery from 'react-responsive';
+import Link from "next/link";
 
 import logo from '../../../../../img/icons/logo.svg';
 
 
 const Logo = () => {
     return (
-        <>
-            {/* <MediaQuery maxWidth={767}>
-                <Image
-                    src={logo}
-                    width={108}
-                    height={38}
-                    alt="Logo"
-                />
-            </MediaQuery> */}
-            {/* <MediaQuery minWidth={768}> */}
-                <Image
-                    src={logo}
-                    width={216}
-                    height={77}
-                    alt="Logo"
-                />
-            {/* </MediaQuery> */}
-        </>
+        <Link href={'/'}>
+            <Image
+                src={logo}
+                width={216}
+                height={77}
+                alt="Logo"
+            />
+        </Link>
     )
 };
 

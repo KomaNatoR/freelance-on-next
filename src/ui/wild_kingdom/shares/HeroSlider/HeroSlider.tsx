@@ -8,11 +8,11 @@ import { montserrat } from "@/ui/fonts";
 
 
 type Arr = string[];
-let cicleringArr: Arr = ['1', '2', '3', '4'];
+let cycleringArr: Arr = ['1', '2', '3', '4'];
 
 
 const HeroSlider = () => {
-    const [visualArr, setVisualArr] = useState<Arr>(cicleringArr);
+    const [visualArr, setVisualArr] = useState<Arr>(cycleringArr);
 
     const handleButtBack = (arr: Arr): void => {
         
