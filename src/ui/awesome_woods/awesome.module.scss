@@ -24,6 +24,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    z-index: 3;
 }
 .one span {
     background: url("../../img/awesome/trees-01.svg") bottom / auto 60% repeat-x;
@@ -42,4 +43,125 @@
 }
 .six span {
     background: url("../../img/awesome/trees-06.svg") bottom / auto 100% repeat-x;
+}
+
+
+.birds {
+    position: absolute;
+    z-index: 2;
+}
+.birds span {
+    display: block;
+}
+
+.bird_one {
+    width: 45vh;
+    max-width: 40%;
+    left: 10vw;
+    top: 10vh;
+}
+.bird_one span {
+    background: url('../../img/awesome/birds-01.svg') 0 0 / 100% no-repeat;
+    padding-bottom: 76%;
+}
+.bird_two {
+    width: 30vh;
+    max-width: 25%;
+    right: 10vw;
+    top: 10vh;
+}
+.bird_two span {
+    background: url('../../img/awesome/birds-02.svg') 0 0 / 100% no-repeat;
+    padding-bottom: 55%;
+}
+
+.mountain, .mountain span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.mountain span {
+    background: url('../../img/awesome/mountains.svg') center / auto 80% repeat-x;
+}
+
+// Content
+.content {
+    padding-top: 200vh;
+}
+.content_container {
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 3.125rem 0.9375rem 5.125rem 0.9375rem;
+
+    & h1 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 2.5rem;
+        margin-bottom: 1.25rem;
+    }
+    & div {
+        color: rgb(220, 97, 3);
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    & p {
+        line-height: 150%;
+    }
+    & p:not(:last-child) {
+        margin-bottom: 1.25rem;
+    }
+}
+
+// Animation
+.trees span {
+    transform: translate(0px, 100%);
+}
+.animateIn .trees span {
+    transform: translate(0px, 15%);
+    transition: transform 0.8s ease;
+}
+.animateIn .one span {
+    transition-delay: 0.5s;
+}
+.animateIn .two span {
+    transition-delay: 0.7s;
+}
+.animateIn .three span {
+    transition-delay: 0.9s;
+}
+.animateIn .four span {
+    transition-delay: 1.1s;
+}
+.animateIn .five span {
+    transition-delay: 1.3s;
+}
+.animateIn .six span {
+    transition-delay: 1.5s;
+}
+
+
+.mountain span {
+    transform: translate(0px, 100%);
+}
+.animateIn .mountain span {
+    transform: translate(0px, 0px);
+    transition: transform 1.5s ease 1.5s;
+}
+
+.bird_one span {
+    transform: translate(-200%, 0px);
+}
+.bird_two span {
+    transform: translate(200%, 0px);
+}
+.animateIn .bird_one span,
+.animateIn .bird_two span {
+    transform: translate(0px, 0px);
+    transition: transform 0.8s ease 2.3s;
 }
