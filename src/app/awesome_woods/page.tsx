@@ -1,5 +1,7 @@
 import { Metadata } from "next"
 
+import AwesomeBody from "@/ui/awesome_woods/AwesomeBody";
+
 
 export const metadata: Metadata = {
   title: 'Awesome Woods',
@@ -8,9 +10,9 @@ export const metadata: Metadata = {
 
 const page = () => {
   return (
-    <div>
-      AWESOME WOODS!
-    </div>
+    <>
+      <AwesomeBody/>
+    </>
   )
-}
-export default page
+};
+export default page;

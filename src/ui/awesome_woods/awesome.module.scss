@@ -1,0 +1,45 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F1F1ED;
+    font-size: 1.25rem;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    overflow: clip;
+}
+
+.main_screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.trees, .trees span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.one span {
+    background: url("../../img/awesome/trees-01.svg") bottom / auto 60% repeat-x;
+}
+.two span {
+    background: url("../../img/awesome/trees-02.svg") bottom / auto 70% repeat-x;
+}
+.three span {
+    background: url("../../img/awesome/trees-03.svg") bottom / auto 70% repeat-x;
+}
+.four span {
+    background: url("../../img/awesome/trees-04.svg") bottom / auto 90% repeat-x;
+}
+.five span {
+    background: url("../../img/awesome/trees-05.svg") bottom / auto 100% repeat-x;
+}
+.six span {
+    background: url("../../img/awesome/trees-06.svg") bottom / auto 100% repeat-x;
+}
